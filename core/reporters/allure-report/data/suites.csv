@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","16165","User changes site language successfully","Language switch","2026-05-16","passed","2026-05-16","","","",""
-"","27952","User adds product to basket","Basket","2026-05-16","passed","2026-05-16","","","",""
-"","24034","User logs in successfully","Login","2026-05-16","passed","2026-05-16","","","",""
-"","44393","User completes purchase","Checkout","2026-05-16","passed","2026-05-16","","","",""
-"","23000","User views product details","Product Details","2026-05-16","passed","2026-05-16","","","",""
