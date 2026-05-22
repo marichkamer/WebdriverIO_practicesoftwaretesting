@@ -1,3 +1,5 @@
+import path from 'path';
+
 export const config = {
     //
     // ====================
@@ -20,9 +22,7 @@ export const config = {
     // The path of the spec files will be resolved relative from the directory of
     // of the config file unless it's absolute.
     //
-    specs: [
-        './test/specs/**/*.js'
-    ],
+    specs: [path.resolve(process.cwd(), 'tests/specs/**/*.js')],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -126,7 +126,7 @@ export const config = {
     reporters: [
         'spec',
         ['allure', {
-            outputDir: 'allure-results',
+            outputDir: './core/reporters/allure-results',
             disableWebdriverStepsReporting: true,
             disableWebdriverScreenshotsReporting: false,
         }]

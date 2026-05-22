@@ -1,7 +1,8 @@
 import * as chai from 'chai';
 
-import HomePage from '../pages/homePage.js';
-import { language } from '../data/language.data.js';
+import HomePage from '../../business/pages/homePage.js';
+import { language } from '../../business/data/language.data.js';
+
 chai.should();
 
 describe('Language switch', () => {

@@ -1,6 +1,6 @@
 import { expect } from 'chai';
-import HomePage from '../pages/homePage.js';
-import { product } from '../data/product.data.js';
+import HomePage from '../../business/pages/homePage.js';
+import { product } from '../../business/data/product.data.js';
 
 
 describe('Basket', () => {

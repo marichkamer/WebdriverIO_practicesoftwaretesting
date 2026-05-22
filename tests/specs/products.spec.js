@@ -1,7 +1,7 @@
 import { expect } from 'chai';
-import HomePage from '../pages/HomePage.js';
-import ProductPage from '../pages/ProductPage.js';
-import { product } from '../data/product.data.js';
+import HomePage from '../../business/pages/homePage.js';
+import ProductPage from '../../business/pages/productPage.js';
+import { product } from '../../business/data/product.data.js';
 
 describe('Product Details', () => {
   beforeEach(async () => {
