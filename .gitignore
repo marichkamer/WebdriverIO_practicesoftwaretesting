@@ -3,4 +3,3 @@ node_modules/
 core/reporters/allure-report/
 core/reporters/allure-results/
 .DS_Store
-allure-results/
