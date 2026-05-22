@@ -1,5 +1,5 @@
-/node_modules
-/.env
-/allure-report
-/allure-results
- .DS_Store
+node_modules/
+.env
+core/reporters/allure-report/
+core/reporters/allure-results/
+.DS_Store
