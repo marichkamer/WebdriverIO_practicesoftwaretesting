@@ -1,10 +1,10 @@
-import LoginPage from '../pages/LoginPage.js';
-import HomePage from '../pages/HomePage.js';
-import CheckoutPage from '../pages/CheckoutPage.js';
-import { product } from '../data/product.data.js';
-import { addressData } from '../data/address.data.js';
-import { paymentMethod } from '../data/paymentMethod.data.js';
-import { auth } from '../data/auth.data.js';
+import LoginPage from '../../business/pages/loginPage.js';
+import HomePage from '../../business/pages/homePage.js';
+import CheckoutPage from '../../business/pages/checkoutPage.js';
+import { product } from '../../business/data/product.data.js';
+import { addressData } from '../../business/data/address.data.js';
+import { paymentMethod } from '../../business/data/paymentMethod.data.js';
+import { auth } from '../../business/data/auth.data.js';
 
 describe('Checkout', () => {
   beforeEach(async () => {

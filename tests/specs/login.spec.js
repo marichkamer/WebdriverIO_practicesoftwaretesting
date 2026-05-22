@@ -1,6 +1,6 @@
 import { assert } from 'chai';
-import LoginPage from '../pages/LoginPage.js';
-import { auth } from '../data/auth.data.js';
+import LoginPage from '../../business/pages/loginPage.js';
+import { auth } from '../../business/data/auth.data.js';
 
 describe('Login', () => {
   beforeEach(async () => {
